@@ -1,0 +1,31 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "ReactJS + ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htdung9vn/FullStack.git"
+  },
+  "keywords": [
+    "reactjs",
+    "+",
+    "expressjs"
+  ],
+  "author": "hoang tien dung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htdung9vn/FullStack/issues"
+  },
+  "homepage": "https://github.com/htdung9vn/FullStack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-router-dom": "^5.1.2"
+  }
+}
